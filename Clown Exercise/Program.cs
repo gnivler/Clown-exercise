@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication4 {
+namespace Clown_exercise {
     class Program {
         static void Main(string[] args) {
             ScaryScary fingersTheClown = new ScaryScary("big shoes", 14);

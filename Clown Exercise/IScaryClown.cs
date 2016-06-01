@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication4
+namespace Clown_exercise
 {
-    interface IClown
+    interface IScaryClown : IClown
     {
-        string FunnyThingIHave { get; }
-        void Honk();
+        string ScaryThingIHave { get; }
+        void ScareLittleChildren();
     }
 }
